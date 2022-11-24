@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="144.962249">
+    <testcase classname="To validate the login functionality of facebook Application" name="To login by using valid username and valid password" time="35.495642">
+        <system-out><![CDATA[Given User have to launch the browser and url...............................passed
+When User have to enter the valid email amd valid password..................passed
+And User have to click the login button.....................................passed
+Then User have to clase the browser.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook Application" name="To login Facebook by valid username and invalid password" time="34.605343">
+        <system-out><![CDATA[Given User have to launch the browser and url...............................passed
+When User have to enter the valid "<username>" and invalid "tat456".........passed
+And User have to click the login button.....................................passed
+Then User have to close the browser.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook Application" name="To login Facebook by valid username and invalid password 2" time="32.543229">
+        <system-out><![CDATA[Given User have to launch the browser and url...............................passed
+When User have to enter the valid "<username>" and invalid "poy789".........passed
+And User have to click the login button.....................................passed
+Then User have to close the browser.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login functionality of facebook Application" name="To login Facebook by valid username and invalid password 3" time="42.318035">
+        <system-out><![CDATA[Given User have to launch the browser and url...............................passed
+When User have to enter the valid "<username>" and invalid "toy675".........passed
+And User have to click the login button.....................................passed
+Then User have to close the browser.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
