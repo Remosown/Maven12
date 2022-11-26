@@ -23,8 +23,8 @@ public class Launching4 extends BaseClass {
 		
 		driver.navigate().refresh();
 		
-		email.sendKeys("gogulkumar10@gmail.com");
-		pass.sendKeys("gog567");
+		email.sendKeys("remokumar526@gmail.com");
+		pass.sendKeys("pradeep97");
 		
 		
 		
